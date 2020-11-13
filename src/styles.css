@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-image: url("./images/map.jpg");
+  background-position: right;
+  background-color: hsl(293, 100%, 36%);
+  padding: 60px;
+}
+li {
+  list-style: none;
+}
+
+.title {
+  margin: 0;
+  color: #fff;
+  font-size: 50px;
+}
+
+.country-input {
+  margin: 20px;
+  padding: 10px 15px;
+  min-width: 300px;
+  border: transparent;
+  outline: none;
+  box-shadow: 1px 1px 2px black;
+  font-size: 20px;
+}
+
+.js-country-title {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+}
+.js-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-card-list {
+  font-size: 30px;
+  color: #fff;
+  list-style: none;
+  margin-right: 50px;
+  text-align: left;
+}
+.js-list-title {
+  color: rgb(53, 240, 224);
+  font-weight: 700;
+}
+.js-country-list {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
