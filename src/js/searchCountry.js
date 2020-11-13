@@ -49,8 +49,6 @@ function clearSerch() {
 
 function onError() {
   error({
-    title: 'To many matches found.',
-    text: 'Please enter a more specific query',
-    delay: 1500,
+    text: 'To many matches found.Please enter a more specific query!!!'
   });
 }
